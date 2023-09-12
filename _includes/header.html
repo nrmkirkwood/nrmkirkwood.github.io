@@ -94,6 +94,14 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
+
+              <!-- CV -->
+              <li class="nav-item">
+                <a class="nav-link" href="{{ '/assets/pdf/nrmkirkwood_CV.pdf' | prepend: site.baseurl | prepend: site.url }}">
+                  CV
+                </a>
+              </li>
+
               {%- if site.enable_darkmode %}
 
               <!-- Toogle theme mode -->
@@ -104,13 +112,6 @@
                 </button>
               </li>
               {%- endif %}
-
-              <!-- CV -->
-              <li class="nav-item">
-                <a class="nav-link" href="{{ '/assets/pdf/nrmkirkwood_CV.pdf' | prepend: site.baseurl | prepend: site.url }}">
-                  CV
-                </a>
-              </li>
 
             </ul>
           </div>

@@ -20,7 +20,7 @@ I'm a researcher, technology development and industry engagement expert with ove
 
 I am driven to help solve the challenge of meeting our energy needs with sustainable, zero-emissions technology systems.
 
-This is a huge, multi-faceted problem. So far in my career, I've been developing and understanding materials that can enable better solar cells or more energy-efficient lighting, and prototyped applications of some of them. This has led me to a strong interest in applying techno-economic analysis to enable sustainable technology implementation.
+This is a huge, multi-faceted problem. So far in my career, I've been developing and analysing quantum materials that can enable better solar cells or more energy-efficient lighting, and prototyped applications of some of them. Driven by a desire to make a more direct impact, more recently I have shifted my focus towards techno-economic analysis and market implementation of emerging sustainable technologies.
 
 More broadly, I am interested in understanding what a truly sustainable circular economy could look like and how we could get there.
 

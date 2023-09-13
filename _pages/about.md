@@ -16,11 +16,13 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a researcher, technology development and industry engagement expert with over 10 years of experience in advanced energy materials research, translating scientific discoveries into sustainable technologies, and managing industry collaborations.
+I'm a researcher, technology development and industry engagement expert with over a decade of experience in advanced energy materials research, translating scientific discoveries into sustainable technologies, and managing industry collaborations.
 
-I am driven to help solve the challenge of meeting our energy needs with sustainable, zero-emissions technology systems.
+I care deeply about meeting our energy needs with zero or at least net-zero emissions. Our present energy production & consumption comes at the expense of future generations and I believe we owe it to them to put every effort into mitgating this. 
 
-This is a huge, multi-faceted problem. So far in my career, I've been developing and analysing quantum materials that can enable better solar cells or more energy-efficient lighting, and prototyped applications of some of them. Driven by a desire to make a more direct impact, more recently I have shifted my focus towards techno-economic analysis and market implementation of emerging sustainable technologies.
+Combining this challenge with a passion for technology and science, I pursued a research career developing quantum materials that enable better solar cells or more energy-efficient lighting (amongst other things), and progressed some towards prototypes and proof-of-concept studies.
+
+Driven by a desire to make a more direct impact, I have shifted my focus to techno-economic analysis and market implementation of emerging renewable energy solutions within a large research centre.
 
 More broadly, I am interested in understanding what a truly sustainable circular economy could look like and how we could get there.
 

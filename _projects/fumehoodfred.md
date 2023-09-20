@@ -16,11 +16,11 @@ But there is another requirement to reach net zero emissions: we need to drastic
 
 Research labs should not be exempt from this. But how much energy do research labs use? I had a look at the research building I work in at the University of Melbourne (Chemistry).
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-12 mt-3 mt-md-0">
+<div class="row">
+    <div class="col-sm-10 mt-3 mt-md-0">
         {% include figure.html path="assets/img/fhf-chem-week.jpg" title="Chemistry Building hourly energy consumption over 1 week" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-12 mt-3 mt-md-0">
+    <div class="col-sm-10 mt-3 mt-md-0">
         {% include figure.html path="assets/img/fhf-chem-year.jpg" title="Chemistry Building daily energy consumption over 1 year" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -84,10 +84,10 @@ At this point I’d been learning Python and playing around with Raspberry Pi mi
 The result was FRED (Fumehood Reduction in Energy Device). FRED is a cheap fumehood retrofit using a Raspberry Pi Pico (under AUD$10 at the time of writing) and a few off-the-shelf electronic items (two buzzers and a magnetic switch). The whole thing costs just $20-25 per fumehood. I also designed a little 3D printable case that helps to enclose it all and line up the sensors.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.html path="assets/img/fhf-final.jpg" title="Latest FRED" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.html path="assets/img/fhf-proto.jpg" title="prototyping FRED" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">

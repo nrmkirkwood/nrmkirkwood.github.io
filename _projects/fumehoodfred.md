@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Building an open-source retrofit device to mitigate reseach lab emissions
+title: Designing a retrofit device to mitigate reseach lab emissions
 description: (with some analysis and musings on lab energy consumption)
 img: assets/img/fhf.jpg
 importance: 1
@@ -17,10 +17,10 @@ But there is another requirement to reach net zero emissions: we need to drastic
 Research labs should not be exempt from this. But how much energy do research labs use? I had a look at the research building I work in at the University of Melbourne (Chemistry).
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.html path="assets/img/fhf-chem-week.jpg" title="Chemistry Building hourly energy consumption over 1 week" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.html path="assets/img/fhf-chem-year.jpg" title="Chemistry Building daily energy consumption over 1 year" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

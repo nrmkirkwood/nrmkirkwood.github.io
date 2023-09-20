@@ -32,7 +32,7 @@ Over a single week, binning the data into hourly blocks, there was a fairly cons
  
 Let’s average that out some more. Over the past year, binning the data into daily blocks, energy consumption was around 27-28 MWh per day on the weekend and around 30-40 MWh per day Mon-Fri. Adding up over a year, from September 2022-September 2023 our building consumed 11,575 MWh of energy. (I have no idea why the energy use is so different in Jan-March 2023 than the rest of the year - maybe some change in how the energy use was metered?).
 
-These numbers are hard to understand without a comparison to other industries or residential energy use. To do this, I’ll take average/typical numbers for energy use (per year) for each sector and divide by area of floor space. This might seem a little arbitrary - why not divide by number of people working in each building - but it’s how the data is presented in the [DCCEW “Commercial Buildings Energy Consumption Baseline Study 2022”](https://www.energy.gov.au/publications/commercial-buildings-energy-consumption-baseline-study-2022) which makes it a convenient way to compare energy consumption.
+These numbers are hard to understand without a comparison to other industries or residential energy use. To do this, I’ll take average/typical numbers for energy use (per year) for each sector and divide by area of floor space. This might seem a little arbitrary - why not divide by number of people working in each building - but it’s how the data is presented in the [DCCEW “Commercial Buildings Energy Consumption Baseline Study 2022”](https://www.energy.gov.au/publications/commercial-buildings-energy-consumption-baseline-study-2022) which makes it a convenient way to compare energy consumption. For residential, I took the average home energy use in Victoria from the [AER Residential Energy consumption benchmarks (Table 9, averaged across all DNSPs)](https://www.aer.gov.au/system/files/Residential%20energy%20consumption%20benchmarks%20-%209%20December%202020_0.pdf) and the average floor area of a new house in Victoria in 2020-2021 from the [ABS](https://www.abs.gov.au/articles/average-floor-area-new-residential-dwellings).
 
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -43,7 +43,7 @@ These numbers are hard to understand without a comparison to other industries or
     Comparison of yearly UoM chemistry building energy consumption (per unit floor area) to buildings in other sectors. Sources in text. Chemistry building total floor area estimated from Google Maps and internal information.
 </div>
 
-By this measure, our building is using about 40x the energy as a residential space and 3.2x a medical space. This isn’t surprising, as research buildings have lots of equipment (lasers, spectrometers, liquid nitrogen tanks, air extraction/flow fans, etc) and we have hundreds of students (undergraduate and graduate) doing research or coursework experiments during the day.
+By this measure, our building is using about 40x the energy as a residential space and 3.2x a medical space (per unit floor area). This isn’t surprising, as research buildings have lots of equipment (lasers, spectrometers, liquid nitrogen tanks, air extraction/flow fans, etc) and we have hundreds of students (undergraduate and graduate) doing research or coursework experiments during the day.
 
 ### Identifying obvious targets for energy reduction
  

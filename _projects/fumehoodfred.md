@@ -17,10 +17,10 @@ But there is another requirement to reach net zero emissions: we need to drastic
 Research labs should not be exempt from this. But how much energy do research labs use? I had a look at the research building I work in at the University of Melbourne (Chemistry).
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-10 mt-3 mt-md-0">
+    <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.html path="assets/img/fhf-chem-week.jpg" title="Chemistry Building hourly energy consumption over 1 week" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-10 mt-3 mt-md-0">
+    <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.html path="assets/img/fhf-chem-year.jpg" title="Chemistry Building daily energy consumption over 1 year" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -34,7 +34,7 @@ Let’s average that out some more. Over the past year, binning the data into da
 
 These numbers are hard to understand without a comparison to other industries or residential energy use. To do this, I’ll take average/typical numbers for energy use (per year) for each sector and divide by area of floor space. This might seem a little arbitrary - why not divide by number of people working in each building - but it’s how the data is presented in the [DCCEW “Commercial Buildings Energy Consumption Baseline Study 2022”](https://www.energy.gov.au/publications/commercial-buildings-energy-consumption-baseline-study-2022) which makes it a convenient way to compare energy consumption. For residential, I took the average home energy use in Victoria from the [AER Residential Energy consumption benchmarks (Table 9, averaged across all DNSPs)](https://www.aer.gov.au/system/files/Residential%20energy%20consumption%20benchmarks%20-%209%20December%202020_0.pdf) and the average floor area of a new house in Victoria in 2020-2021 from the [ABS](https://www.abs.gov.au/articles/average-floor-area-new-residential-dwellings).
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.html path="assets/img/fhf-building-energy-use.jpg" title="Energy use of buildings in different sectors" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -83,7 +83,7 @@ At this point I’d been learning Python and playing around with Raspberry Pi mi
 
 The result was FRED (Fumehood Reduction in Energy Device). FRED is a cheap fumehood retrofit using a Raspberry Pi Pico (under AUD$10 at the time of writing) and a few off-the-shelf electronic items (two buzzers and a magnetic switch). The whole thing costs just $20-25 per fumehood. I also designed a little 3D printable case that helps to enclose it all and line up the sensors.
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.html path="assets/img/fhf-final.jpg" title="Latest FRED" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -112,7 +112,7 @@ Annoyed by a loud noise or guilted by climate facts, one of our many research st
 
 Anecdotally, the fume hoods spend a lot more time closed now. The Raspberry Pi at the heart of FRED is easily capable of data logging so I ran a long-term experiment to see if FRED had a meaningful effect. I left FRED with the buzzing noises (and Teams posts) off in a fume hood for 1 month to log baseline data, then turned on FRED’s buzzers and posting and recorded for another month the effect on how often and how long the fumehood was left open. Using the [LBL fumehood energy use calculator available online](https://fumehoodcalculator.lbl.gov/) with inputs based on our fume hoods, I converted time left open into an estimated energy consumption and plotted the results.
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.html path="assets/img/fhf-results.jpg" title="results of FRED trial" class="img-fluid rounded z-depth-1" %}
     </div>

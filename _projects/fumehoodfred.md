@@ -7,11 +7,12 @@ importance: 1
 category: work
 ---
 
-### Executive Summary
-We need to reduce our energy demand to avoid a climate catastrophe. I designed, tested and built a simple retrofit device, FRED, that reduces our research lab energy consumption by a couple of percent using some very cheap off-the-shelf electronics and a few dozen lines of code. It works by alerting researchers when they leave open their 'fume hoods' (cupboards where chemicals are handled). The data from a trial over 2 months in a real lab shows that each fume hood used an estimated 33% less energy after FRED was installed, corresponding to about 3.3 tCO2e avoided per fume hood. 
+## tl;dr
+I designed, tested and built a simple retrofit device, FRED, that reduces our research lab energy consumption by a couple of percent using some very cheap off-the-shelf electronics and a few dozen lines of code. 
 
-FRED stands for "Fumehood Reduction in Energy Device" has a smiley face on it.
+FRED works by alerting researchers when they leave open their 'fume hoods' (cupboards where chemicals are handled). The data from a trial over 2 months in a real lab shows that each fume hood used an estimated 33% less energy after FRED was installed, corresponding to about 3.3 tCO2e avoided per fume hood. 
 
+## All the details
 ### The need to reduce our energy demand
 
 We are all aware that switching to renewable, zero-emissions energy as fast as possible is critical to mitigate the impact of climate change. 

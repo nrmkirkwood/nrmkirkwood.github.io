@@ -110,7 +110,7 @@ Annoyed by a loud noise or guilted by climate facts, one of our many research st
 
 ### Meausing FRED's impact
 
-Anecdotally, the fume hoods spend a lot more time closed now. The Raspberry Pi at the heart of FRED is easily capable of data logging so I ran a long-term experiment to see if FRED had a meaningful effect. I left FRED with the buzzing noises (and Teams posts) off in a fume hood for 1 month to log baseline data, then turned on FRED’s buzzers and posting and recorded for another month the effect on how often and how long the fumehood was left open. Using the [LBL fumehood energy use calculator available online](https://fumehoodcalculator.lbl.gov/index.php) with inputs based on our fume hoods, I converted time left open into an estimated energy consumption and plotted the results.
+Anecdotally, the fume hoods spend a lot more time closed now. The Raspberry Pi at the heart of FRED is easily capable of data logging so I ran a long-term experiment to see if FRED had a meaningful effect. I left FRED with the buzzing noises (and Teams posts) off in a fume hood for 1 month to log baseline data, then turned on FRED’s buzzers and posting and recorded for another month the effect on how often and how long the fumehood was left open. Using the [LBL fumehood energy use calculator available online](https://fumehoodcalculator.lbl.gov/) with inputs based on our fume hoods, I converted time left open into an estimated energy consumption and plotted the results.
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">

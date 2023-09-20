@@ -12,6 +12,8 @@ I designed, tested and built a simple retrofit device, FRED, that reduces our re
 
 FRED works by alerting researchers when they leave open their 'fume hoods' (cupboards where chemicals are handled). The data from a trial over 2 months in a real lab shows that each fume hood used an estimated 33% less energy after FRED was installed, corresponding to about 3.3 tCO2e avoided per fume hood. 
 
+I've recently noticed an [incredible similar device being described in a peer-reviewed publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8560830/). Their results are encouragingly similar and validate that this is a good idea and the results are verifiable.
+
 ## All the details
 ### The need to reduce our energy demand
 
@@ -22,11 +24,11 @@ But there is another requirement to reach net zero emissions: we need to drastic
 
 Research labs should not be exempt from this. But how much energy do research labs use? I had a look at the research building I work in at the University of Melbourne (Chemistry).
 
-<div class="row">
-    <div class="col-sm-10 mt-3 mt-md-0">
+<div class="row justify-content-sm-center">
+    <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.html path="assets/img/fhf-chem-week.jpg" title="Chemistry Building hourly energy consumption over 1 week" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-10 mt-3 mt-md-0">
+    <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.html path="assets/img/fhf-chem-year.jpg" title="Chemistry Building daily energy consumption over 1 year" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -57,7 +59,7 @@ With this in mind, I set about to see if we could make research labs in our buil
 
 Turning off lights and equipment after being used is already pretty common practice, so that didn’t seem like a useful avenue to explore. Our lab has some very power-hungry lasers and heating equipment, but in both cases, these are on turned on when needed, and necessary for research. 
 
-But then I came across a “Chemistry World” article, “How to run a sustainable chemistry lab” (December 2021), in which fume hoods identified as a major culprit of energy waste in labs.
+But then I came across a “Chemistry World” article, “How to run a sustainable chemistry lab” (December 2021), in which fume hoods identified as a major culprit of energy waste in labs. There have been various [LinkedIn posts](https://www.linkedin.com/pulse/4-steps-cutting-energy-costs-fume-hoods-balcon/?trk=organization-update-content_share-article) on the topic and even [peer-reviewed publications](https://www.sciencedirect.com/science/article/abs/pii/S0360544204004906) on the huge avoidable emissions from fume hoods.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -104,7 +106,7 @@ The result was FRED (Fumehood Reduction in Energy Device). FRED is a cheap fumeh
     </div>
 </div>
 <div class="caption">
-    Top left: The latest iteration of FRED including 3D printed case (lid off). Top right: An early prototype - a lot more wires. Bottom: An example of a Microsoft Teams post that FRED makes when left up for too long. 
+    Top left: The latest iteration of FRED including 3D printed case (lid off). Top middle: FRED with smiley lid. Top right: An early prototype - a lot more wires. Bottom: An example of a Microsoft Teams post that FRED makes when left up for too long. 
 </div>
  
 Once assembled, which requires only a few minutes (a bit of soldering + upload the code onto the RPi Pico), FRED is attached to a fume hood. The magnetic Reed switch tells the Pi if the fume hood is open or closed.
@@ -130,7 +132,7 @@ Anecdotally, the fume hoods spend a lot more time closed now. The Raspberry Pi a
     Comparison of estimated energy use per fume hood per year before and after FRED is installed. The data is estimated by comparing data logs taken during a control month with FRED installed in a fume hood and logging data with 'alerts off' (no buzzer or posts) and a month in the same fume hood with the alerts on (buzzer and Teams posting activated).
 </div>
 
-This is a back-of-the-envelope way to calculate energy use, but the result was clear: A *significant* reduction in energy consumption of around 33% or around 3 MWh per year per fume hood. When installed in all four fumehoods in our lab, this equates to about 13 tCO2e avoided (using the [DELWP GHG coefficient of 1.09 tCO2e/MWh from 2021](https://www.esc.vic.gov.au/sites/default/files/documents/greenhouse-gas-co-efficient-2021_0.pdf)), roughly equivalent to [removing 3 cars from the road](https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle). FRED also saves whoever pays the bills around $2,500 per year, assuming an energy price of [$0.21/kWh](https://www.canstarblue.com.au/electricity/electricity-costs-kwh/). 
+This is a back-of-the-envelope way to calculate energy use, but the result was clear: A *significant* reduction in energy consumption of around 33% or around 3 MWh per year per fume hood. When installed in all four fumehoods in our lab, this equates to about 13 tCO2e avoided (using the [DELWP GHG coefficient of 1.09 tCO2e/MWh from 2021](https://www.esc.vic.gov.au/sites/default/files/documents/greenhouse-gas-co-efficient-2021_0.pdf)), roughly equivalent to [removing 3 cars from the road](https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle). FRED also saves whoever pays the bills for our lab around $2,500 per year, assuming an energy price of [$0.21/kWh](https://www.canstarblue.com.au/electricity/electricity-costs-kwh/). 
 
 ### Impact for the entire building
 
@@ -139,6 +141,13 @@ The data above is just for one lab – we estimated there are around 100 fume ho
 ### Due-diligence
 
 As a final bit of due-diligence: surely there's existing ways to solve this obviously quite significant energy use problem? The answer is yes, but at a significant cost. I asked our lab system provider to quote a retrofit or refit of our furmehoods to incorporate an energy saving feature that closes the sash (or at least alarms when left open) and we got a quote of just over $4,000 per fume hood (excl GST) which is about 150-200 times more expensive than FRED.
+
+As a final note, I've recently noticed an [incredible similar device being described in a peer-reviewed publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8560830/). It even has a fun name (MASH). They arrive at encouragingly similar results to mine and even use the metric of 'cars removed per fumehood' to contextualise CO2 emissions. MASH even uses some fancy IR sensor to measure sash height and their analysis is fancier and longer.
+
+On the other hand, FRED is smaller and has a smiley face on it :)
+
+I could be annoyed that somebody else had the same idea and executed it at the same time, and actually wrote a paper on it, but really I'm very pleased. This proves the idea was good and the similarity of our results is a great outcome.
+
 
 ### Where to get FRED
  

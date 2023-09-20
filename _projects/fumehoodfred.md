@@ -7,6 +7,11 @@ importance: 1
 category: work
 ---
 
+### Executive Summary
+We need to reduce our energy demand to avoid a climate catastrophe. I designed, tested and built a simple retrofit device, FRED, that reduces our research lab energy consumption by a couple of percent using some very cheap off-the-shelf electronics and a few dozen lines of code. It works by alerting researchers when they leave open their 'fume hoods' (cupboards where chemicals are handled). The data from a trial over 2 months in a real lab shows that each fume hood used an estimated 33% less energy after FRED was installed, corresponding to about 3.3 tCO2e avoided per fume hood. 
+
+FRED stands for "Fumehood Reduction in Energy Device" has a smiley face on it.
+
 ### The need to reduce our energy demand
 
 We are all aware that switching to renewable, zero-emissions energy as fast as possible is critical to mitigate the impact of climate change. 
@@ -88,7 +93,10 @@ The result was FRED (Fumehood Reduction in Energy Device). FRED is a cheap fumeh
         {% include figure.html path="assets/img/fhf-final.jpg" title="Latest FRED" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/fhf-proto.jpg" title="prototyping FRED" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/fhf.jpg" title="FRED smiling with its lid on" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/fhf-proto.jpg" title="prototyping FRED"" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.html path="assets/img/fhf-teamspost.jpg" title="Example of a post to MS Teams" class="img-fluid rounded z-depth-1" %}
@@ -123,8 +131,14 @@ Anecdotally, the fume hoods spend a lot more time closed now. The Raspberry Pi a
 
 This is a back-of-the-envelope way to calculate energy use, but the result was clear: A *significant* reduction in energy consumption of around 33% or around 3 MWh per year per fume hood. When installed in all four fumehoods in our lab, this equates to about 13 tCO2e avoided (using the [DELWP GHG coefficient of 1.09 tCO2e/MWh from 2021](https://www.esc.vic.gov.au/sites/default/files/documents/greenhouse-gas-co-efficient-2021_0.pdf)), roughly equivalent to [removing 3 cars from the road](https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle). FRED also saves whoever pays the bills around $2,500 per year, assuming an energy price of [$0.21/kWh](https://www.canstarblue.com.au/electricity/electricity-costs-kwh/). 
 
-But that’s just for one lab – we estimated there are around 100 fume hoods in the Chemistry department alone. That means we could reduce the total energy consumption of our department by around 300 MWh per year, around 2-3% of the current 11,500 MWh yearly consumption figure, and over 300 tCO2e avoided (they yearly equivalent of approximately 70 cars). That’s pretty decent for a retrofit that costs $25 and only takes a few minutes to install.
+### Impact for the entire building
+
+The data above is just for one lab – we estimated there are around 100 fume hoods in the Chemistry department alone. That means we could reduce the total energy consumption of our department by around 300 MWh per year, around 2-3% of the current 11,500 MWh yearly consumption figure, and over 300 tCO2e avoided (they yearly equivalent of approximately 70 cars). That’s pretty decent for a retrofit that costs $25 and only takes a few minutes to install.
+
+### Due-diligence
 
 As a final bit of due-diligence: surely there's existing ways to solve this obviously quite significant energy use problem? The answer is yes, but at a significant cost. I asked our lab system provider to quote a retrofit or refit of our furmehoods to incorporate an energy saving feature that closes the sash (or at least alarms when left open) and we got a quote of just over $4,000 per fume hood (excl GST) which is about 150-200 times more expensive than FRED.
+
+### Where to get FRED
  
 It seems that the best way to disseminate FRED and push the impact is to make it open-source the code and make it avaialable for anyone to install, so I’ve made the code, 3D print files for (optional) case, and instructions available on GitHub [here]( https://github.com/nrmkirkwood/FumeHoodFred).

@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Non-scientific projects I've worked on for fun.
+description: Details of my projects that haven't been published but warrant recording.
 nav: true
 nav_order: 2
 display_categories: [work, fun]

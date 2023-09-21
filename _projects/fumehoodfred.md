@@ -121,15 +121,18 @@ Annoyed by a loud noise or guilted by climate facts, one of our many research st
 
 ### Meausing FRED's impact
 
-Anecdotally, the fume hoods spend a lot more time closed now. The Raspberry Pi at the heart of FRED is easily capable of data logging so I ran a long-term experiment to see if FRED had a meaningful effect. I left FRED with the buzzing noises (and Teams posts) off in a fume hood for 1 month to log baseline data, then turned on FRED’s buzzers and posting and recorded for another month the effect on how often and how long the fumehood was left open. Using the [LBL fumehood energy use calculator available online](https://fumehoodcalculator.lbl.gov/) with inputs based on our fume hoods, I converted time left open into an estimated energy consumption and plotted the results.
+Anecdotally, the fume hoods spend a lot more time closed now. The Raspberry Pi at the heart of FRED is easily capable of data logging so I ran a long-term experiment to see if FRED had a meaningful effect. I left FRED with the buzzing noises (and Teams posts) off in a fume hood for 1 month to log baseline data, then turned on FRED’s buzzers and posting and recorded for another month the effect on how often and how long the fumehood was left open. The data shows a clear reduction in time left open, driven by significantly fewer episodes where a fume hood is left open for over an hour. Using the [LBL fumehood energy use calculator available online](https://fumehoodcalculator.lbl.gov/) with inputs based on our fume hoods, I converted time left open into an estimated energy consumption.
 
 <div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/fhf-cumulative.png" title="cumulative time open comparison" class="img-fluid rounded z-depth-1" %}
+    </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.html path="assets/img/fhf-results.jpg" title="results of FRED trial" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Comparison of estimated energy use per fume hood per year before and after FRED is installed. The data is estimated by comparing data logs taken during a control month with FRED installed in a fume hood and logging data with 'alerts off' (no buzzer or posts) and a month in the same fume hood with the alerts on (buzzer and Teams posting activated).
+    Left: Cumulative time fumehood left open for control (alerts off) and with FRED buzzer on (alerts on) during two measurement time periods of the same length. Right: Comparison of estimated energy use per fume hood per year before and after FRED is installed. The data is estimated by comparing data logs taken during a control month with FRED installed in a fume hood and logging data with 'alerts off' (no buzzer or posts) and a month in the same fume hood with the alerts on (buzzer and Teams posting activated).
 </div>
 
 This is a back-of-the-envelope way to calculate energy use, but the result was clear: A *significant* reduction in energy consumption of around 33% or around 3 MWh per year per fume hood. When installed in all four fumehoods in our lab, this equates to about 13 tCO2e avoided (using the [DELWP GHG coefficient of 1.09 tCO2e/MWh from 2021](https://www.esc.vic.gov.au/sites/default/files/documents/greenhouse-gas-co-efficient-2021_0.pdf)), roughly equivalent to [removing 3 cars from the road](https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle). FRED also saves whoever pays the bills for our lab around $2,500 per year, assuming an energy price of [$0.21/kWh](https://www.canstarblue.com.au/electricity/electricity-costs-kwh/). 

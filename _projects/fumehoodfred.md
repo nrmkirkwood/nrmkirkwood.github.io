@@ -11,7 +11,7 @@ Last updated: 22 September, 2023
 ## Summary
 I designed, tested and built a simple retrofit device, FRED, that reduces our research lab energy consumption by a couple of percent using some very cheap off-the-shelf electronics and a few dozen lines of code. 
 
-FRED works by alerting researchers when they leave open their 'fume hoods' (ducted cupboards where chemicals are handled that use air flow to keep chemical vapours in). The data from a trial over 2 months in a real lab shows that each fume hood used an estimated 33% less energy after FRED was installed, corresponding to about 3.3 tCO2e avoided per fume hood. 
+FRED works by alerting researchers when they leave open their 'fume hoods' (ducted cupboards where chemicals are handled that use air flow to keep chemical vapours in). The data from a trial over 2 months in a real lab shows that each fume hood used an estimated 33% less energy after FRED was installed, corresponding to about 3.3 tCO2e avoided per fume hood, and the potential for up to 3% energy reduction at a building level if installed in all fume hoods.
 
 I've recently noticed an [incredible similar device being described by MIT researchers in a peer-reviewed publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8560830/) and assosciated [start-up company](https://thelichenlab.com/). Their results/product are encouragingly similar and validate that this is a good idea and the results are verifiable.
 

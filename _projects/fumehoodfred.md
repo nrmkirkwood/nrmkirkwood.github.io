@@ -145,12 +145,15 @@ The data above is just for one lab – we estimated there are around 100 fume ho
 
 As a final bit of due-diligence: surely there's existing ways to solve this obviously quite significant energy use problem? The answer is yes, but at a significant cost. I asked our lab system provider to quote a retrofit or refit of our furmehoods to incorporate an energy saving feature that closes the sash (or at least alarms when left open) and we got a quote of just over $4,000 per fume hood (excl GST) which is about 150-200 times more expensive than FRED.
 
-As a final note, I've recently noticed an [incredible similar device being described in a peer-reviewed publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8560830/). It even has a fun name (MASH). They arrive at encouragingly similar results to mine and even use the metric of 'cars removed per fumehood' to contextualise CO2 emissions. MASH even uses some fancy IR sensor to measure sash height and their analysis is fancier and longer.
+As a final note, I've recently noticed an [incredible similar device being described by a team at MIT in a peer-reviewed publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8560830/). It even has a fun name (MASH). They arrive at encouragingly similar results to mine and even use the metric of 'cars removed per fumehood' to contextualise CO2 emissions. MASH even uses some fancy IR sensor to measure sash height and their analysis is fancier and longer.
 
 On the other hand, FRED is smaller and has a smiley face on it :)
 
 I could be annoyed that somebody else had the same idea and executed it at the same time, and actually wrote a paper on it, but really I'm very pleased. This proves the idea was good and the similarity of our results is a great outcome.
 
+### Acknowledgements
+
+The FRED project was greatly assisted by the discussions, advice and superior soldering skills of Jack Heywood-Day and Trent Ralph. Thankyou!
 
 ### Where to get FRED
  

@@ -148,7 +148,7 @@ As a final bit of due-diligence: surely there's existing ways to solve this obvi
 
 As a final note, I've recently noticed an [incredible similar device being described by a team at MIT in a peer-reviewed publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8560830/) and an assosciated [start-up company](https://thelichenlab.com/). Their device even has a fun name (MASH). They arrive at encouragingly similar results to those obtained by FRED, with a more sophisticated and longer-term analysis involving many more fume hoods. 
 
-I could be annoyed that somebody else had the same idea and executed it at the same time, and actually wrote a paper on it, but really I'm very pleased. This proves the idea was good and the similarity of our results is a great outcome.
+The fact that somebody else had the same idea and executed it at the same time, wrote a paper on it, and started a company to commercialise it, proves the idea was good and the similarity of our results is a great outcome.
 
 ### Acknowledgements
 

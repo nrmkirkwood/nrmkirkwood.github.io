@@ -13,7 +13,7 @@ I designed, tested and built a simple retrofit device, FRED, that reduces our re
 
 FRED works by alerting researchers when they leave open their 'fume hoods' (cupboards where chemicals are handled). The data from a trial over 2 months in a real lab shows that each fume hood used an estimated 33% less energy after FRED was installed, corresponding to about 3.3 tCO2e avoided per fume hood. 
 
-I've recently noticed an [incredible similar device being described in a peer-reviewed publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8560830/). Their results are encouragingly similar and validate that this is a good idea and the results are verifiable.
+I've recently noticed an [incredible similar device being described by MIT researchers in a peer-reviewed publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8560830/) and assosciated [start-up company](https://thelichenlab.com/). Their results/product are encouragingly similar and validate that this is a good idea and the results are verifiable.
 
 ## All the details
 ### The need to reduce our energy demand
@@ -146,9 +146,7 @@ The data above is just for one lab – we estimated there are around 100 fume ho
 
 As a final bit of due-diligence: surely there's existing ways to solve this obviously quite significant energy use problem? The answer is yes, but at a significant cost. I asked our lab system provider to quote a retrofit or refit of our furmehoods to incorporate an energy saving feature that closes the sash (or at least alarms when left open) and we got a quote of just over $4,000 per fume hood (excl GST) which is about 150-200 times more expensive than FRED.
 
-As a final note, I've recently noticed an [incredible similar device being described by a team at MIT in a peer-reviewed publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8560830/). It even has a fun name (MASH). They arrive at encouragingly similar results to mine and even use the metric of 'cars removed per fumehood' to contextualise CO2 emissions. MASH even uses some fancy IR sensor to measure sash height and their analysis is fancier and longer.
-
-On the other hand, FRED is smaller and has a smiley face on it :)
+As a final note, I've recently noticed an [incredible similar device being described by a team at MIT in a peer-reviewed publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8560830/) and an assosciated [start-up company](https://thelichenlab.com/). Their device even has a fun name (MASH). They arrive at encouragingly similar results to those obtained by FRED, with a more sophisticated and longer-term analysis involving many more fume hoods. 
 
 I could be annoyed that somebody else had the same idea and executed it at the same time, and actually wrote a paper on it, but really I'm very pleased. This proves the idea was good and the similarity of our results is a great outcome.
 

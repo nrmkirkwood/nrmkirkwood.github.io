@@ -6,6 +6,7 @@ img: assets/img/fhf-horiz.jpg
 importance: 1
 category: work
 ---
+Last updated: 22 September, 2023
 
 ## tl;dr
 I designed, tested and built a simple retrofit device, FRED, that reduces our research lab energy consumption by a couple of percent using some very cheap off-the-shelf electronics and a few dozen lines of code. 

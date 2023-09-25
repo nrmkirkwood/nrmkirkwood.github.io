@@ -127,9 +127,9 @@ Anecdotally, the fume hoods spend a lot more time closed now. The Raspberry Pi a
 The data shows a clear reduction in time the fumehood is left open after the buzzers/posts were activated, driven mostly by significantly fewer episodes where a fume hood is left open for over an hour. In both measurement periods, the fume hoods were heavily used, and data logs indicate the fume hood was actually opened more often in the "alarms on" time period, so I am confident we aren't getting a false result from people simply not being in the lab during that time. Using the [LBL fumehood energy use calculator available online](https://fumehoodcalculator.lbl.gov/) with inputs based on our fume hoods, I converted time left open into an estimated energy consumption.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.html path="assets/img/fhf-ud-off.png" title="Fumehood with alerts off" class="img-fluid rounded z-depth-1" %}
-    </div>    <div class="col-sm-6 mt-3 mt-md-0">
+    </div>    <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.html path="assets/img/fhf-ud-on.png" title="Fumehood with alerts on" class="img-fluid rounded z-depth-1" %}
     </div>    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.html path="assets/img/fhf-cumulative.png" title="cumulative time open comparison" class="img-fluid rounded z-depth-1" %}

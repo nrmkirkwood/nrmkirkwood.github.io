@@ -120,12 +120,18 @@ Last but not least, FRED plays a very happy and satisfying little chromatic riff
 
 Annoyed by a loud noise or guilted by climate facts, one of our many research students then runs into the lab to close the fumehood, quiet FRED and restore their inner calm. (As a side note, it quickly became clear the annoying buzzing sound was more effective than the MS Teams posting at changing behaviour, but it's fun to do both.)
 
-### Meausing FRED's impact
+### Measuring FRED's impact
 
-Anecdotally, the fume hoods spend a lot more time closed now. The Raspberry Pi at the heart of FRED is easily capable of data logging so I ran a long-term experiment to see if FRED had a meaningful effect. I left FRED with the buzzing noises (and Teams posts) off in a fume hood for 1 month to log baseline data, then turned on FRED’s buzzers and posting and recorded for another month the effect on how often and how long the fumehood was left open. The data shows a clear reduction in time left open, driven by significantly fewer episodes where a fume hood is left open for over an hour. Using the [LBL fumehood energy use calculator available online](https://fumehoodcalculator.lbl.gov/) with inputs based on our fume hoods, I converted time left open into an estimated energy consumption.
+Anecdotally, the fume hoods spend a lot more time closed now. The Raspberry Pi at the heart of FRED is easily capable of data logging so I ran a long-term experiment to see if FRED had a meaningful effect. I left FRED with the buzzing noises (and Teams posts) off in a fume hood for 1 month to log baseline data, then turned on FRED’s buzzers and posting and recorded for another month the effect on how often and how long the fumehood was left open. 
+
+The data shows a clear reduction in time the fumehood is left open after the buzzers/posts were activated, driven mostly by significantly fewer episodes where a fume hood is left open for over an hour. In both measurement periods, the fume hoods were heavily used, and data logs indicate the fume hood was actually opened more often in the "alarms on" time period, so I am confident we aren't getting a false result from people simply not being in the lab during that time. Using the [LBL fumehood energy use calculator available online](https://fumehoodcalculator.lbl.gov/) with inputs based on our fume hoods, I converted time left open into an estimated energy consumption.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/fhf-ud-off.png" title="Fumehood with alerts off" class="img-fluid rounded z-depth-1" %}
+    </div>    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/fhf-ud-on.png" title="Fumehood with alerts on" class="img-fluid rounded z-depth-1" %}
+    </div>    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.html path="assets/img/fhf-cumulative.png" title="cumulative time open comparison" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -133,7 +139,8 @@ Anecdotally, the fume hoods spend a lot more time closed now. The Raspberry Pi a
     </div>
 </div>
 <div class="caption">
-    Left: Cumulative time fumehood left open for control (alerts off) and with FRED buzzer on (alerts on) during two measurement time periods of the same length. Right: Comparison of estimated energy use per fume hood per year before and after FRED is installed. The data is estimated by comparing data logs taken during a control month with FRED installed in a fume hood and logging data with 'alerts off' (no buzzer or posts) and a month in the same fume hood with the alerts on (buzzer and Teams posting activated).
+    Top: Fumehood open/closed logs with alerts off and on. 
+    Bottom Left: Cumulative time fumehood left open for control (alerts off) and with FRED buzzer on (alerts on) during two measurement time periods of the same length. Bottom Right: Comparison of estimated energy use per fume hood per year before and after FRED is installed. The data is estimated by comparing data logs taken during a control month with FRED installed in a fume hood and logging data with 'alerts off' (no buzzer or posts) and a month in the same fume hood with the alerts on (buzzer and Teams posting activated).
 </div>
 
 This is a back-of-the-envelope way to calculate energy use, but the result was clear: A *significant* reduction in energy consumption of around 33% or around 3 MWh per year per fume hood. When installed in all four fumehoods in our lab, this equates to about 13 tCO2e avoided (using the [DELWP GHG coefficient of 1.09 tCO2e/MWh from 2021](https://www.esc.vic.gov.au/sites/default/files/documents/greenhouse-gas-co-efficient-2021_0.pdf)), roughly equivalent to [removing 3 cars from the road](https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle). FRED also saves whoever pays the bills for our lab around $2,500 per year, assuming an energy price of [$0.21/kWh](https://www.canstarblue.com.au/electricity/electricity-costs-kwh/). 
@@ -142,9 +149,9 @@ This is a back-of-the-envelope way to calculate energy use, but the result was c
 
 The data above is just for one lab – we estimated there are around 100 fume hoods in the Chemistry department alone. That means we could reduce the total energy consumption of our department by around 300 MWh per year, around 2-3% of the current 11,500 MWh yearly consumption figure, and over 300 tCO2e avoided (they yearly equivalent of approximately 70 cars). That’s pretty decent for a retrofit that costs $25 and only takes a few minutes to install.
 
-### Due-diligence
+### Due diligence
 
-As a final bit of due-diligence: surely there's existing ways to solve this obviously quite significant energy use problem? The answer is yes, but at a significant cost. I asked our lab system provider to quote a retrofit or refit of our furmehoods to incorporate an energy saving feature that closes the sash (or at least alarms when left open) and we got a quote of just over $4,000 per fume hood (excl GST) which is about 150-200 times more expensive than FRED.
+As a final bit of due diligence: surely there's existing ways to solve this obviously quite significant energy use problem? The answer is yes, but at a significant cost. I asked our lab system provider to quote a retrofit or refit of our furmehoods to incorporate an energy saving feature that closes the sash (or at least alarms when left open) and we got a quote of just over $4,000 per fume hood (excl GST) which is about 150-200 times more expensive than FRED.
 
 As a final note, I've recently noticed an [incredible similar device being described by a team at MIT in a peer-reviewed publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8560830/) and an assosciated [start-up company](https://thelichenlab.com/). Their device even has a fun name (MASH). They arrive at encouragingly similar results to those obtained by FRED, with a more sophisticated and longer-term analysis involving many more fume hoods. 
 

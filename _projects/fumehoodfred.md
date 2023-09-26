@@ -13,6 +13,8 @@ I designed, tested and built a simple retrofit device, FRED, that reduces our re
 
 FRED works by alerting researchers when they leave open their 'fume hoods' (ducted cupboards where chemicals are handled that use air flow to keep chemical vapours in). The data from a trial over 2 months in a real lab shows that each fume hood used an estimated 33% less energy after FRED was installed, corresponding to about 3.3 tCO2e avoided per fume hood, and the potential for up to 3% energy reduction at a building level if installed in all fume hoods.
 
+You can easily make and install your own FRED using the instructions [here](https://github.com/nrmkirkwood/FumeHoodFred).
+
 I've recently noticed an [incredible similar device being described by MIT researchers in a peer-reviewed publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8560830/) and assosciated [start-up company](https://thelichenlab.com/). Their results/product are encouragingly similar and validate that this is a good idea and the results are verifiable.
 
 ## All the details
@@ -163,4 +165,4 @@ The FRED project was greatly assisted by the discussions, advice and superior so
 
 ### Where to get FRED
  
-It seems that the best way to disseminate FRED and push the impact is to make it open-source the code and make it avaialable for anyone to install, so I’ve made the code, 3D print files for (optional) case, and instructions available on GitHub [here]( https://github.com/nrmkirkwood/FumeHoodFred).
+It seems that the best way to disseminate FRED and push the impact is to make it open-source the code and make it avaialable for anyone to install, so I’ve made the code, 3D print files for (optional) case, and instructions available on GitHub [here](https://github.com/nrmkirkwood/FumeHoodFred).

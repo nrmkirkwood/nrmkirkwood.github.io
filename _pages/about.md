@@ -16,13 +16,13 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a researcher, technology development and industry engagement expert with over a decade of experience in advanced energy materials research, translating scientific discoveries into sustainable technologies, and managing industry collaborations.
+I'm a researcher, technology development and industry engagement expert with over a decade of experience in advanced energy materials research, translating scientific discoveries into sustainable technologies, and managing industry-academia collaborations.
 
 I care deeply about meeting our energy needs with zero or at least net-zero emissions. Our present energy production & consumption comes at the expense of future generations and I believe we owe it to them to put every effort into mitgating this. 
 
 Combining this challenge with a passion for technology and science, I pursued a research career developing quantum materials that enable better solar cells or more energy-efficient lighting (amongst other things), and progressed some towards prototypes and proof-of-concept studies.
 
-Driven by a desire to make a more direct impact, I have shifted my focus to techno-economic analysis and market implementation of emerging renewable energy solutions within a large research centre.
+Driven by a desire to make a more direct impact, I have shifted my focus to techno-economic analysis and market implementation of emerging renewable energy solutions within a large research centre. I've also developed an [energy use reduction retro-fit device for research labs](https://nrmkirkwood.github.io/projects/fumehoodfred/).
 
 More broadly, I am interested in understanding what a truly sustainable circular economy could look like and how we could get there.
 

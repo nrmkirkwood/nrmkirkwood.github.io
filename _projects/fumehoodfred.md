@@ -65,7 +65,7 @@ With this in mind, I set about to see if we could make research labs in our buil
 
 While common practices like turning off lights and equipment are already in place, it turns out there are bigger energy wasters. My prime candidate for energy reduction was the 'fume hood' — a leading cause of energy wastage. 
 
-A fume hood is a big cupboard with a clear plastic, vertically sliding door called a ‘sash’. Researchers working with hazardous chemicals do so in a fume hood, and powerful fans at the top of the fume hoods extract dangerous chemical vapours. If left open, each fume hood can devour 2-3 kWh every hour, about the same as 3 residential houses. To make matters worse, our building probably contains 50-100 or so fume hoods, most of them without any features to automatically close or turn off if they are left open.
+A fume hood is a big cupboard with a clear plastic, vertically sliding door called a ‘sash’. Researchers working with hazardous chemicals do so in a fume hood, and powerful fans at the top of the fume hoods extract dangerous chemical vapours. If left open, each fume hood can devour 2-3 kWh every hour, about the same as 3 residential houses. To make matters worse, our building contains around 100 fume hoods, most of them without any features to automatically close or turn off if they are left open.
 
 The challenge? Encouraging researchers to shut them when not in use. 
 

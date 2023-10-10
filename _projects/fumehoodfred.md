@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Designing FRED, a retrofit device to mitigate reseach lab emissions
-description: (with some analysis and musings on lab energy consumption)
+title: FRED - a retrofit device to reduce reseach lab energy use
+description: (with some analysis and thoughts on lab energy consumption)
 img: assets/img/fhf-horiz.jpg
 importance: 1
 category: work
@@ -9,7 +9,9 @@ category: work
 Last updated: 22 September, 2023
 
 ## Introduction
-In the critical pursuit of energy efficiency, I've engineered FRED (Fumehood Reduction in Energy Device): a straightforward retrofit device designed to reduce the energy consumption in our research labs. This innovative tool, constructed using cost-effective electronics and a few lines of code, has promising implications for the future of sustainable labs.
+In the critical pursuit of energy efficiency, I've engineered FRED (Fumehood Reduction in Energy Device): a straightforward retrofit device designed to reduce the energy consumption in our research labs. 
+
+This innovative tool, constructed using cost-effective electronics and a few lines of code, has promising implications for the future of sustainable labs.
 
 ## Overview of FRED
 
@@ -17,7 +19,7 @@ In the critical pursuit of energy efficiency, I've engineered FRED (Fumehood Red
 
 **Performance:** In a two-month trial, fume hoods utilized about 33% less energy post-FRED installation, translating to an estimated 3.3 tCO2e saved per hood. This implies a potential 3% energy reduction at a building scale.
 
-**Open Source:** FRED is open source! Instructions for creating your own FRED are available [here](https://github.com/nrmkirkwood/FumeHoodFred).
+**Open Source:** FRED is open source. Instructions for creating your own FRED are available [here](https://github.com/nrmkirkwood/FumeHoodFred).
 
 Notably, an [analogous device](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8560830/) and a [start-up company](https://thelichenlab.com/) have been developed by MIT researchers, which further corroborates the effectiveness and viability of such a device.
 
@@ -41,11 +43,10 @@ Research labs should not be exempt from this. But how much energy do research la
     Top: Chemistry Building hourly energy consumption over 1 week. Bottom: Chemistry Building daily energy consumption over 1 year. Source: University of Melbourne Utility Report Database via Clariti (https://sustainablecampus.unimelb.edu.au/energy/on-campus)
 </div>
 
-Over a single week, binning the data into hourly blocks, there was a fairly constant baseline of around 1,100 kWh energy consumption per hour. During working hours, consumption peaks between 1,500-1,900 kWh per hour. To contextualise these numbers, the fridge/freezer in a residential house might use 0.25 kWh per hour. 
- 
-Let’s average that out some more. Over the past year, binning the data into daily blocks, energy consumption was around 27-28 MWh per day on the weekend and around 30-40 MWh per day Mon-Fri. Adding up over a year, from September 2022-September 2023 our building consumed 11,575 MWh of energy. (I have no idea why the energy use is so different in Jan-March 2023 than the rest of the year - maybe some change in how the energy use was metered?).
+Over a single week, there was a fairly constant baseline of around 1,100 kWh energy consumption per hour. During working hours, consumption peaks between 1,500-1,900 kWh per hour. To contextualise these numbers, the fridge/freezer in a residential house might use 0.25 kWh per hour. 
+Over the past year, energy consumption was around 27-28 MWh per day on the weekend and around 30-40 MWh per day Mon-Fri. In total, from September 2022 to September 2023 our building consumed 11,575 MWh of energy. 
 
-These numbers are hard to understand without a comparison to other industries or residential energy use. To do this, I’ll take average/typical numbers for energy use (per year) for each sector and divide by area of floor space. This might seem a little arbitrary - why not divide by number of people working in each building - but it’s how the data is presented in the [DCCEW “Commercial Buildings Energy Consumption Baseline Study 2022”](https://www.energy.gov.au/publications/commercial-buildings-energy-consumption-baseline-study-2022) which makes it a convenient way to compare energy consumption. For residential, I took the average home energy use in Victoria from the [AER Residential Energy consumption benchmarks (Table 9, averaged across all DNSPs)](https://www.aer.gov.au/system/files/Residential%20energy%20consumption%20benchmarks%20-%209%20December%202020_0.pdf) and the average floor area of a new house in Victoria in 2020-2021 from the [ABS](https://www.abs.gov.au/articles/average-floor-area-new-residential-dwellings).
+These numbers are hard to understand without a comparison to other industries or residential energy use. To do this, I’ll take average/typical numbers for energy use (per year) for each sector and divide by floor area. (Why floor area? This is how the data is presented in the [DCCEW “Commercial Buildings Energy Consumption Baseline Study 2022”](https://www.energy.gov.au/publications/commercial-buildings-energy-consumption-baseline-study-2022) which makes it a convenient way to compare energy consumption). For residential, I took the average home energy use in Victoria from the [AER Residential Energy consumption benchmarks (Table 9, averaged across all DNSPs)](https://www.aer.gov.au/system/files/Residential%20energy%20consumption%20benchmarks%20-%209%20December%202020_0.pdf) and the average floor area of a new house in Victoria in 2020-2021 from the [ABS](https://www.abs.gov.au/articles/average-floor-area-new-residential-dwellings).
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">

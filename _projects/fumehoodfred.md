@@ -84,7 +84,7 @@ The “Chemistry World” article “How to run a sustainable chemistry lab” (
 </div>
 
 
- ## The birth of FRED (Fumehood Reduction in Energy Device)
+## The birth of FRED (Fumehood Reduction in Energy Device)
 
 I’d been learning Python and playing around with Raspberry Pi microcontrollers, so I decided to build a retrofit device which would detect fumehoods being left open and encourage people to close them.
 

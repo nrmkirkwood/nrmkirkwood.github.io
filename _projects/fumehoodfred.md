@@ -6,7 +6,7 @@ img: assets/img/fhf-horiz.jpg
 importance: 1
 category: work
 ---
-Last updated: 22 September, 2023
+Last updated: October 2023
 
 ## Introduction
 In the critical pursuit of energy efficiency, I've engineered FRED (Fumehood Reduction in Energy Device): a straightforward retrofit device designed to reduce the energy consumption in our research labs. 

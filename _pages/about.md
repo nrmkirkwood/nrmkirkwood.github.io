@@ -16,11 +16,13 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Our energy choices today shape the future for generations to come. I'm committed to zero emissions and a career helping deliver impactful solutions that benefit us today and tomorrow.
+Our energy choices today shape the future for generations to come. I'm committed to a career delivering zero emissions energy and sustainable technologies that benefit us today and tomorrow.
 
-With over a decade in advanced energy materials research and industry collaborations, I've transformed scientific breakthroughs into sustainable technologies and steered pivotal industry-academia collaborations.
+With over a decade in advanced energy materials research and industry collaborations, I've transformed scientific breakthroughs into impactful technologies and steered pivotal industry-academia collaborations.
  
-Driven by a desire to make a more direct impact, I work on techno-economic analysis and implementation of emerging renewable energy solutions within a large research centre. I've also developed an [energy reduction retro-fit device for research labs](https://nrmkirkwood.github.io/projects/fumehoodfred/).
+Most recently, I'm working on industry-academia collaborations, techno-economic analysis and implementation of emerging renewable energy solutions within a large research centre. 
+
+Driven by an urge to make a difference in any way possible, I've also developed an effective [energy reduction retro-fit device for research labs](https://nrmkirkwood.github.io/projects/fumehoodfred/).
 
 My recent work projects include:
 

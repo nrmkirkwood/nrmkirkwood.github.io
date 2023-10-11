@@ -11,7 +11,7 @@ category: work
 The eco-credentials of silicon solar panels are well-established. They typically repay their embedded carbon (the total carbon footprint from extraction to disposal) within 2-3 years, meaning that for most of their 25+ year lifespan, they are producing truly clean energy. Indeed silicon as a solar panel material has gained immense traction over the past two decades and now dominates the solar energy landscape.
 
 ### ...but we still need renewables innovation
-Despite the incredible rise and success of silicon solar panels, new innovations will still be critial to reduce the impact of climate change. The [IEA Net Zero by 2050 report](https://www.iea.org/reports/net-zero-by-2050) anticipates that over 45% of the annual CO2 emissions savings by 2050 will need to be delivered by technologies still in development. There are also 
+Despite the incredible rise and success of silicon solar panels, new innovations will still be critial to reduce the impact of climate change. The [IEA Net Zero by 2050 report](https://www.iea.org/reports/net-zero-by-2050) anticipates that over 45% of the annual CO2 emissions savings by 2050 will need to be delivered by technologies still in development. There are also [large sums of money](https://breakthroughvictoria.com/breakthrough-victoria-challenge/) being offered by governments to anyone who can help solve end-of-life problems for the ever-increasing volume of solar panel waste.
 
 These challenges underscore the pressing need for revolutionary solar technologies that are not only more efficent, affordable and simpler to manufacture but also easier to recycle compared to the current silicon solar panels.
 
@@ -32,5 +32,3 @@ Our research shed light on a few critical points:
 - Notably, we learned from solar manufacturers and customers that there's a growing interest in enhancing the efficiencies of silicon PV through a tandem structure. This approach involves adding a solution-processed cell on top of a conventional silicon cell, increasing power output without the need for additional space. While there's [excitement around silicon/perovskite tandems](https://www.theguardian.com/environment/2023/jul/06/revolutionary-solar-power-cell-innovations-break-key-energy-threshold) due to their impressive results, CZTS cells, we believe, will provide longer product lifetimes and alleviate the toxicity concerns inherent with perovskites.
 
 You can read the article on our findings, which received a $4,000 bonus to go towards our research, [here](https://excitonscience.com/news/avail-solar-receive-csiro-bonus).
-
-[An article on our results can be found here](https://excitonscience.com/news/avail-solar-receive-csiro-bonus)

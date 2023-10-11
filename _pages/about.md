@@ -20,9 +20,9 @@ Our energy choices today shape the future for generations to come. I'm committed
 
 With over a decade in advanced energy materials research and industry collaborations, I've transformed scientific breakthroughs into impactful technologies and steered pivotal industry-academia collaborations.
  
-Most recently, I'm working on industry-academia collaborations, techno-economic analysis and implementation of emerging renewable energy solutions within a large research centre. 
+Most recently, I'm working on techno-economic analysis and implementation of emerging renewable energy solutions within a large research centre. 
 
-Driven by an urge to make a difference in any way possible, I've also developed an effective [energy reduction retro-fit device for research labs](https://nrmkirkwood.github.io/projects/fumehoodfred/).
+I've also developed an effective [energy reduction retro-fit device for research labs](https://nrmkirkwood.github.io/projects/fumehoodfred/).
 
 My recent work projects include:
 

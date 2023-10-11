@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Solar Panels That Are Better for the Environment?
-description: Identifying the market use for an emerging solar technology
+description: Investigating the market use for an emerging solar technology
 img: assets/img/availsolar.jpg
 importance: 1
 category: work

@@ -13,7 +13,9 @@ In the critical pursuit of energy efficiency, I've engineered FRED (Fumehood Red
 
 This innovative tool, constructed using cost-effective electronics and a few lines of code, has promising implications for the future of sustainable labs.
 
-## Overview of FRED
+## What is FRED
+
+**What:** FRED is the Fumehood Reduction in Energy Device.
 
 **Function:** FRED alerts researchers when they leave their fume hoods (vented cabinets for handling chemicals) open.
 
@@ -23,11 +25,11 @@ This innovative tool, constructed using cost-effective electronics and a few lin
 
 Notably, an [analogous device](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8560830/) and a [start-up company](https://thelichenlab.com/) have been developed by MIT researchers, which further corroborates the effectiveness and viability of such a device.
 
-## The Imperative of Energy Efficiency
+## The Imperative to Reduce Energy Demand
 
 Transitioning to zero-emissions energy as fast as possible is only half the battle to mitigate climate change. It is equally important to drastically reduce our energy demand. The International Energy Agency (IEA) has estimated that, even with widespread renewables uptake, we need to [triple the current rate of energy efficiency improvements in buildings over the next ten years](https://www.iea.org/reports/net-zero-by-2050). 
 
-## Research labs in focus
+## Research Labs in Focus
 
 Research labs should not be exempt from this. But how much energy do research labs use? I had a look at the research building I work in at the University of Melbourne (Chemistry).
 
@@ -84,7 +86,7 @@ The “Chemistry World” article “How to run a sustainable chemistry lab” (
 </div>
 
 
-## The birth of FRED (Fumehood Reduction in Energy Device)
+## A FRED is Born
 
 I’d been learning Python and playing around with Raspberry Pi microcontrollers, so I decided to build a retrofit device which would detect fumehoods being left open and encourage people to close them.
 
@@ -118,7 +120,7 @@ Last but not least, FRED plays a very happy and satisfying little riff as a rewa
 
 The results? A significant decrease in open fume hoods.
 
-### Measuring FRED's impact
+### Measuring FRED's Impact
 
 FRED is easily capable of data logging so I ran a long-term experiment to see if FRED had a meaningful effect. I left FRED with the buzzing noises (and Teams posts) off in a fume hood for 1 month to log baseline data, then turned on FRED’s buzzers and posting and recorded for another month the effect on how often and how long the fumehood was left open. 
 
@@ -143,19 +145,19 @@ The data shows FRED leads to a clear reduction in time the fumehood is left open
 
 This is a back-of-the-envelope way to calculate energy use, but the result was clear: A *significant* reduction in energy consumption of around 33% or around 3 MWh per year per fume hood. When installed in all four fumehoods in our lab, this equates to about 13 tCO2e avoided (using the [DELWP GHG coefficient of 1.09 tCO2e/MWh from 2021](https://www.esc.vic.gov.au/sites/default/files/documents/greenhouse-gas-co-efficient-2021_0.pdf)), roughly equivalent to [removing 3 cars from the road](https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle). FRED also saves whoever pays the bills for our lab around $2,500 per year, assuming an energy price of [$0.21/kWh](https://www.canstarblue.com.au/electricity/electricity-costs-kwh/). 
 
-## Potential for impact
+## Potential for Larger Impact
 
 The data above is just for one lab – we estimated there are around 100 fume hoods in the Chemistry department alone. That means we could reduce the total energy consumption of our department by around 300 MWh per year, around 2-3% of the current 11,500 MWh yearly consumption figure, and over 300 tCO2e avoided (they yearly equivalent of approximately 70 cars). 
 
 That’s pretty decent for a retrofit that costs $25 and only takes a few minutes to install.
 
-## Other approaches
+## Other Approaches
 
 As a final bit of due diligence: surely there's existing ways to solve this obviously quite significant energy use problem? The answer is yes, but at a significant cost. I asked our lab system provider to quote a retrofit or refit of our furmehoods to incorporate an energy saving feature that closes the sash (or at least alarms when left open) and we got a quote of just over $4,000 per fume hood (excl GST) which is about 150-200 times more expensive than FRED.
 
 As a final note, I've recently noticed a [similar device described by a team at MIT](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8560830/) and an assosciated [start-up company](https://thelichenlab.com/). They arrive at encouragingly similar results to those obtained by FRED.
 
-## Where to get FRED
+## Where is FRED?
  
 To propagate FRED's benefits, I've open-sourced the code, 3D printable case, and installation guide, making it freely available on GitHub [here](https://github.com/nrmkirkwood/FumeHoodFred).
 

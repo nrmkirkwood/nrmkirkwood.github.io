@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Solar Panels That Are Better for the Environment?
-description: Investigating the market use for an emerging solar technology
+description: Investigating the market use for CZTS, an emerging solar technology
 img: assets/img/availsolar.jpg
 importance: 2
 category: work
@@ -36,7 +36,7 @@ These challenges underscore the pressing need for revolutionary solar technologi
     </div>
 </div>
 <div class="caption">
-    Increase in various forms of silicon PV efficiency over time. Most commercial silicon PV is either single crystal or multicrystalline.
+    Increase in various forms of silicon PV efficiency over time. Most commercial silicon PV is either single crystal or multicrystalline (blue lines).
 </div>
 
 ### Lightweight, non-toxic CZTS solar
@@ -54,7 +54,7 @@ In 2023 I led a team tasked with critically evaluating and testing these purport
     </div>
 </div>
 <div class="caption">
-    Expected value chain for printed or solutio-processed CZTS PV. System installation and recycling are ignored as they would be the same as for other PV modules.
+    Expected value chain for printed or solution-processed CZTS PV. The value chain is shorter and the manufacturing processes are far simpler than for silicon PV. System installation and recycling are ignored as they would be the same as for other PV modules.
 </div>
 
 ### What we discovered
@@ -84,16 +84,16 @@ We concluded that a silicon/CZTS tandem PV product is the most likely means to g
     Increase in efficiency of emerging perovskite, silicon-perovskite tandem, and CZTS (aka CZTSSe) PV. Two common silicon PV technologies are shown for comparison.
 </div>
 
-Crucially, a tandem of perovksites and silicon (red line with blue triangles) is more efficient than just Si or perovskite alone, but due to the low cost of adding a perovskite layer onto silicon PV, it doesn't cost *too much* more than just a silicon solar cell to make. Whether the cost of energy ($/W or LCOE) for a perovskite/silicon tandem can be lower than conventional silicon PV remains to be seen, but this is the hypothesis of [one prominent start-up](https://www.oxfordpv.com/) which is a promising sign.
+Crucially, a tandem of perovksites and silicon (red line with blue triangles) is more efficient than just Si or perovskite alone, but due to the low cost of adding a perovskite layer onto silicon PV, it doesn't cost *too much* more than just a silicon solar cell to make. Whether the cost of energy ($/W or LCOE) for a perovskite/silicon tandem can be lower than conventional silicon PV remains to be seen, but this is the hypothesis of [one well-funded Oxford spin-out](https://www.oxfordpv.com/).
 
-You probably noticed that CZTS is lower on that graph than perovskites. That's true, but there are two issues with perovskites that are holding them back:
+You probably noticed that CZTS efficiencies are lower on that graph than perovskites. That's true, and it's a hurdle that needs to be overcome, but there are two issues with perovskites that are holding them back:
 
-- Stability. Perovskites are famously unstable especially in contact with air and water. This is a problem for a tandem, because you don't want to throw out a perfectly good silicon PV cell after 10 years because the perovskite layer is dead.
+- **Stability.** Perovskites are famously unstable especially in contact with air and water. This is a problem for a tandem, because you don't want to throw out a perfectly good silicon PV cell after 10 years because the perovskite layer is dead.
 
-- Lead. Perovskites are full of *water soluble* lead. There is a risk this could get into the environment either via damage to the cell, or end of life dumping into landfill.
+- **Lead.** Perovskites are full of *water soluble* lead. There is a risk this could get into the environment either via damage to the cell, or end of life dumping into landfill.
 
-CZTS solves both of these limitations: It is very stable and contains no lead. The major scientific hurdle is that the efficiency of CZTS is too low right now to be a proper contender for a CZTS/silicon tandem.
+CZTS solves both of these limitations: It is very stable and contains no lead. The major scientific hurdle is that the efficiency of CZTS is too low right now to be a proper contender for a CZTS/silicon tandem. 
 
-But that will almost certainly be solved - at which point, get ready to extract more energy out of a silicon solar panel without adding to the cost of energy or creating concerns about stability or toxicity.
+But that will almost certainly be solved - at which point, engineers and funding agencies are likely to be motivated to develop a CZTS/silicon tandem that can extract more energy than silicon alone, without creating concerns about stability or toxicity.
 
 You can read another article on our findings, which received a $4,000 bonus to go towards our research, [here](https://excitonscience.com/news/avail-solar-receive-csiro-bonus).

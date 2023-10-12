@@ -2,7 +2,7 @@
 layout: page
 title: projects blog
 permalink: /projects/
-description: 
+description: A blog describing various projects I've worked on.
 nav: true
 nav_order: 2
 display_categories: [work, fun]

@@ -6,9 +6,10 @@ img: assets/img/availsolar.jpg
 importance: 2
 category: work
 ---
+Last updated 12-10-2023
 
 ### Silicon solar is amazing
-The eco-credentials of silicon as a photovoltaic material (PV) is well-established. Silicon solar panels typically repay their embedded carbon (the total carbon footprint from extraction to disposal) within 2-3 years, meaning that for most of their 25+ year lifespan, they are producing truly clean energy. Along with dramatic cost increases, this has allowed silicon PV to gain immense traction as a renewable energy source over the past two decades. Silicon now [dominates](https://solarmagazine.com/solar-panels/thin-film-solar-panels/#:~:text=This%20technology%20currently%20represents%205.1,Film%20Panels) the PV landscape with well over 90% of the market share. Notable non-silicon technologies are cadmium telluride (5% market share), CIGS (2% market share) and gallium arsenide (GaAs) based cells used in space (not mass-produced as they are very expensive).
+The eco-credentials of silicon as a photovoltaic material (PV) is well-established. Silicon solar panels typically repay their embedded carbon (the total carbon footprint from extraction to disposal) within 2-3 years, meaning that for most of their 25+ year lifespan, they are producing truly clean energy. Along with dramatic cost increases, this has allowed silicon PV to gain immense traction as a renewable energy source over the past two decades. Silicon now [dominates](https://solarmagazine.com/solar-panels/thin-film-solar-panels) the PV landscape with well over 90% of the market share. Notable non-silicon technologies are cadmium telluride (5% market share), CIGS (2% market share) and gallium arsenide (GaAs) based cells used in space (not mass-produced as they are very expensive).
 
 ### But we still need innovation
 Despite the incredible rise and success of silicon PV, new innovations will still be critial to reduce the impact of climate change. The [IEA Net Zero by 2050 report](https://www.iea.org/reports/net-zero-by-2050) anticipates that over 45% of the annual CO2 emissions savings by 2050 will need to be delivered by technologies still in development. 

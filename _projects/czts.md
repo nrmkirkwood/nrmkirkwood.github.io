@@ -10,12 +10,14 @@ category: work
 ### Silicon solar is amazing
 The eco-credentials of silicon as a photovoltaic material (PV) is well-established. Silicon solar panels typically repay their embedded carbon (the total carbon footprint from extraction to disposal) within 2-3 years, meaning that for most of their 25+ year lifespan, they are producing truly clean energy. Along with dramatic cost increases, this has allowed silicon PV to gain immense traction as a renewable energy source over the past two decades. Silicon now [dominates](https://solarmagazine.com/solar-panels/thin-film-solar-panels/#:~:text=This%20technology%20currently%20represents%205.1,Film%20Panels) the PV landscape with well over 90% of the market share. Notable non-silicon technologies are cadmium telluride (5% market share), CIGS (2% market share) and gallium arsenide (GaAs) based cells used in space (not mass-produced as they are very expensive).
 
-### We still need solar innovation
+### But we still need innovation
 Despite the incredible rise and success of silicon PV, new innovations will still be critial to reduce the impact of climate change. The [IEA Net Zero by 2050 report](https://www.iea.org/reports/net-zero-by-2050) anticipates that over 45% of the annual CO2 emissions savings by 2050 will need to be delivered by technologies still in development. 
 
 One notable issue is that recycling or re-use of silicon PV is not currently economically viable. There are [large sums of money](https://breakthroughvictoria.com/breakthrough-victoria-challenge/) being offered by governments to anyone who can help solve the challenge posed by the rapidly increasing volume of PV waste we generate. It should be noted that PV waste is currently and will continue to be [dwarfed by other forms of waste](https://www.nature.com/articles/s41567-023-02230-0), but that doesn't mean it's not important to minimise it.
 
-Another issue of note is that the vast majority of the silicon PV supply chain is [concentrated in a single country, China](https://www.csiro.au/en/research/natural-environment/Critical-minerals/Australian-Silicon-Action-Plan) which can be seen as a geopolitical and supply chain risk, and complicates creating a circular economy.
+Another potential issue is that the vast majority of the silicon PV supply chain is [concentrated in a single country](https://www.csiro.au/en/research/natural-environment/Critical-minerals/Australian-Silicon-Action-Plan). This could be seen through a geopolitical lens as a future energy security risk, and complicates creating a circular economy.
+
+Finally, the rise in efficiency of silicon solar panels has [stagnated](https://www.nrel.gov/pv/cell-efficiency.html) in the past decade, and is so close to the theoretical limit (for silicon) that it will probably not increase signficantly from now. New PV technologies which can improve the efficiency of silicon without increasing the cost of energy produced would be highly desirable.
 
 These challenges underscore the pressing need for revolutionary solar technologies that are not only more efficent, affordable and simpler to manufacture but also easier to recycle compared to the current silicon solar panels.
 
@@ -31,9 +33,11 @@ These challenges underscore the pressing need for revolutionary solar technologi
 ### Lightweight, non-toxic CZTS solar
 Researchers in the centre I work at are pioneering a [new method](https://onlinelibrary.wiley.com/doi/10.1002/adfm.202211421) to fabricate lightweight CZTS solar cells using only low-energy processes. (CZTS stands for 'Copper, Zinc, Tin, Sulfur and Selenium', which are the elements these solar cells are composed of). 
 
-This approach not only eliminates the use of toxic materials in many other emerging solar technologies (such as lead-rich [perovskites](https://www.nature.com/articles/s41467-019-13910-y)) but also reduces embedded carbon when compared to traditional silicon solar panels, and in the long run, should be more cost-effective to manufacture and have even lower embedded carbon than silicon PV panels.
+This approach not only eliminates the use of toxic materials in many other emerging solar technologies (such as lead-rich [perovskites](https://www.nature.com/articles/s41467-019-13910-y)) but also reduces embedded carbon when compared to traditional silicon solar panels, and in the long run, should be more cost-effective to manufacture and have even lower embedded carbon than silicon PV panels. The simpler manufacturing process allow for lower capital costs for a given production scale, which might afford local Australian manufacturing of CZTS PV that would provide both energy securty and local clean energy jobs.
 
-In 2023 I led an initiative to critically evaluate our assumption that these innovative CZTS solar cells could not only compete with existing silicon cells, but also be manufactured in Australia. This project was undertaken as part of CSIRO's 'On Prime' program.
+PV modules made using CZTS are expected to be much lighter than conventional silicon PV, and potentially flexible as well, which could unlock PV uses in areas where silicon PV currently cannot work due to weight or flexibility constraints. 
+
+In 2023 I led a team tasked with critically evaluating and testing these purported benefits of CZTS PV to decide if, and how, CZTS solar cells could be brought onto the market and compete with existing silicon PV. This project was undertaken as part of CSIRO's 'On Prime' program.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-12 mt-3 mt-md-0">

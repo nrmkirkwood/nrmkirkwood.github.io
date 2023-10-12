@@ -2,7 +2,7 @@
 layout: page
 title: What does a long-term sustainable economy look like?
 description: Investigating green growth and post-growth ideas
-img: assets/img/prof_pic.png
+img: assets/img/renewables-aus.png
 importance: 3
 category: work
 ---

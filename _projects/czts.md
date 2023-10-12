@@ -15,12 +15,6 @@ Despite the incredible rise and success of silicon PV, new innovations will stil
 
 One notable issue is that recycling or re-use of silicon PV is not currently economically viable. There are [large sums of money](https://breakthroughvictoria.com/breakthrough-victoria-challenge/) being offered by governments to anyone who can help solve the challenge posed by the rapidly increasing volume of PV waste we generate. It should be noted that PV waste is currently and will continue to be [dwarfed by other forms of waste](https://www.nature.com/articles/s41567-023-02230-0), but that doesn't mean it's not important to minimise it.
 
-Another potential issue is that the vast majority of the silicon PV supply chain is [concentrated in a single country](https://www.csiro.au/en/research/natural-environment/Critical-minerals/Australian-Silicon-Action-Plan). This could be seen through a geopolitical lens as a future energy security risk, and complicates creating a circular economy.
-
-Finally, the rise in efficiency of silicon solar panels has [stagnated](https://www.nrel.gov/pv/cell-efficiency.html) in the past decade, and is so close to the theoretical limit (for silicon) that it will probably not increase signficantly from now. New PV technologies which can improve the efficiency of silicon without increasing the cost of energy produced would be highly desirable.
-
-These challenges underscore the pressing need for revolutionary solar technologies that are not only more efficent, affordable and simpler to manufacture but also easier to recycle compared to the current silicon solar panels.
-
 <div class="row justify-content-sm-center">
     <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.html path="assets/img/czts-silicon-value-chain.png" title="silicon value chain" class="img-fluid rounded z-depth-1" %}
@@ -28,6 +22,21 @@ These challenges underscore the pressing need for revolutionary solar technologi
 </div>
 <div class="caption">
     Concentration and dominance of silicon PV value chain by a single country (source for numbers: PwV and CSIRO 'Australian Silicon Action Plan', link in text).
+</div>
+
+Another potential issue is that the vast majority of the silicon PV supply chain is shown above: it is [concentrated in a single country](https://www.csiro.au/en/research/natural-environment/Critical-minerals/Australian-Silicon-Action-Plan). This could be seen through a geopolitical lens as a future energy security risk, and complicates creating a circular economy.
+
+Finally, the rise in efficiency of silicon solar panels has [stagnated](https://www.nrel.gov/pv/cell-efficiency.html) in the past decade, and is so close to the theoretical limit (for silicon) that it will probably not increase signficantly from now. New PV technologies which can improve the efficiency of silicon without increasing the cost of energy produced would be highly desirable
+
+These challenges underscore the pressing need for revolutionary solar technologies that are not only more efficent, affordable and simpler to manufacture but also easier to recycle compared to the current silicon solar panels.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-12 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/czts-cell-eff-si.png" title="silicon efficiency gains" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Increase in various forms of silicon PV efficiency over time. Most commercial silicon PV is either single crystal or multicrystalline.
 </div>
 
 ### Lightweight, non-toxic CZTS solar
@@ -63,6 +72,28 @@ Our research shed light on a few critical points:
 
 - **Solar manufacturers and solar farm operators have an interest in enhancing the efficiencies of silicon PV through a tandem structure.** This approach involves adding a solution-processed cell on top of a conventional silicon cell, increasing power output without the need for additional space. While there's [excitement around silicon/perovskite tandems](https://www.theguardian.com/environment/2023/jul/06/revolutionary-solar-power-cell-innovations-break-key-energy-threshold) due to their impressive results, CZTS cells, we believe, will provide longer product lifetimes and alleviate the toxicity concerns inherent with perovskites.
 
-We concluded that a silicon/CZTS tandem PV product is the most likely means to get CZTS technology onto the market. This approach will require extensive collaboration with silicon PV manufactuerers.
+## The power of tandems
+We concluded that a silicon/CZTS tandem PV product is the most likely means to get CZTS technology onto the market. The power of this approach can be seen in the graph below. I've removed most of the less common silicon PV technologies for clarity, and added in CZTS (red line at bottom), and perovskites, another emerging technology (red line with yellow circles), as well as a perovskite/Silicon tandem (red line, blue triangles):
 
-You can read the article on our findings, which received a $4,000 bonus to go towards our research, [here](https://excitonscience.com/news/avail-solar-receive-csiro-bonus).
+<div class="row justify-content-sm-center">
+    <div class="col-sm-12 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/czts-cell-eff-emerging.png" title="CZTS and perovskite efficiency gains" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Increase in efficiency of emerging perovskite, silicon-perovskite tandem, and CZTS (aka CZTSSe) PV. Two common silicon PV technologies are shown for comparison.
+</div>
+
+Crucially, a tandem of perovksites and silicon (red line with blue triangles) is more efficient than just Si or perovskite alone, but due to the low cost of adding a perovskite layer onto silicon PV, it doesn't cost *too much* more than just a silicon solar cell to make. Whether the cost of energy ($/W or LCOE) for a perovskite/silicon tandem can be lower than conventional silicon PV remains to be seen, but this is the hypothesis of [one prominent start-up](https://www.oxfordpv.com/) which is a promising sign.
+
+You probably noticed that CZTS is lower on that graph than perovskites. That's true, but there are two issues with perovskites that are holding them back:
+
+- Stability. Perovskites are famously unstable especially in contact with air and water. This is a problem for a tandem, because you don't want to throw out a perfectly good silicon PV cell after 10 years because the perovskite layer is dead.
+
+- Lead. Perovskites are full of *water soluble* lead. There is a risk this could get into the environment either via damage to the cell, or end of life dumping into landfill.
+
+CZTS solves both of these limitations: It is very stable and contains no lead. The major scientific hurdle is that the efficiency of CZTS is too low right now to be a proper contender for a CZTS/silicon tandem.
+
+But that will almost certainly be solved - at which point, get ready to extract more energy out of a silicon solar panel without adding to the cost of energy or creating concerns about stability or toxicity.
+
+You can read another article on our findings, which received a $4,000 bonus to go towards our research, [here](https://excitonscience.com/news/avail-solar-receive-csiro-bonus).

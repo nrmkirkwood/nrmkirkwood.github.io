@@ -73,7 +73,7 @@ Our research shed light on a few critical points:
 - **Solar manufacturers and solar farm operators have an interest in enhancing the efficiencies of silicon PV through a tandem structure.** This approach involves adding a solution-processed cell on top of a conventional silicon cell, increasing power output without the need for additional space. While there's [excitement around silicon/perovskite tandems](https://www.theguardian.com/environment/2023/jul/06/revolutionary-solar-power-cell-innovations-break-key-energy-threshold) due to their impressive results, CZTS cells, we believe, will provide longer product lifetimes and alleviate the toxicity concerns inherent with perovskites.
 
 ## The power of tandems
-We concluded that a silicon/CZTS tandem PV product is the most likely means to get CZTS technology onto the market. The power of this approach can be seen in the graph below. I've removed most of the less common silicon PV technologies for clarity, and added in CZTS (red line at bottom), and perovskites, another emerging technology (red line with yellow circles), as well as a perovskite/Silicon tandem (red line, blue triangles):
+We concluded that a silicon/CZTS tandem PV product is the most likely means to get CZTS technology onto the market. The potential of this approach can be seen from the story of [perovskite PV](https://en.wikipedia.org/wiki/Perovskite_solar_cell), shown in the graph below. I've removed most of the less common silicon PV technologies for clarity, and added in CZTS (red line at bottom), and perovskites, another emerging technology (red line with yellow circles), as well as a perovskite/Silicon tandem (red line, blue triangles):
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-12 mt-3 mt-md-0">

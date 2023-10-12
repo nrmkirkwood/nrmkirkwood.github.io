@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Details of my projects that haven't been published but warrant recording.
+description: 
 nav: true
 nav_order: 2
 display_categories: [work, fun]

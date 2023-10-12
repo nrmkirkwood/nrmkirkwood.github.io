@@ -19,7 +19,7 @@ Another issue of note is that the vast majority of the silicon PV supply chain i
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/czts-silicon-value-chain.jpg" title="silicon value chain" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/czts-silicon-value-chain.png" title="silicon value chain" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -35,7 +35,7 @@ This approach not only eliminates the use of toxic materials in many other emerg
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/czts-value-chain.jpg" title="Expected CZTS value chain" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/czts-value-chain.png" title="Expected CZTS value chain" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

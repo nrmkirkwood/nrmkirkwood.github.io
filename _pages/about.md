@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Our energy choices today shape the future for generations to come. I'm committed to a career delivering zero emissions energy and sustainable technologies that benefit us today and tomorrow.
+Our choices today shape the future for generations to come. I'm committed to a career enabling sustainable technologies that benefit us today and tomorrow.
 
 With over a decade in advanced energy materials research and industry collaborations, I've transformed scientific breakthroughs into impactful technologies and steered pivotal industry-academia collaborations.
  

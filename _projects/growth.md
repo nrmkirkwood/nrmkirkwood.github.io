@@ -23,10 +23,10 @@ This blog post will naively set out to investigate these questions. I'm aware ot
 Firstly, where are we now with energy and material use?
 
 ### Australia's Energy Consumption
-In 2020, Australia's total local energy consumption was 1.7 TWh (6,014 PJ).
-On average, an Australian uses about 180 kWh/day, which is 60 times more than a human's basic daily energy needs.
-Comparatively, the EU's consumption is about 38 times a human's basic needs.
-Notably, renewables account for 23% of electricity generated but only 4% of total energy consumed in Australia.
+In 2020, Australia's total local energy consumption was 1.7 TWh (6,014 PJ). On average, an Australian uses about 180 kWh/day, which is 60 times more than a human's basic daily energy needs. If we include our exports (which we should!) then it's a lot higher - 200 times a human's basic daily needs! Comparatively, the EU's consumption is about 38 times a human's basic needs. 
+
+Notably, renewables now account for around 23% of electricity generated for our grid in Australia, and this figure is steadily rising. But this is just a portion of all of our energy use and we export a lot of fossil fuels. 
+
 Global Energy Consumption Trends
 The global change in energy consumption has been significant. Various sources, such as ourworldindata.org, provide insights into these shifts.
 

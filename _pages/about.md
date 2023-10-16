@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: prof_pic.png
+  image: dalle3-solar-aus2.png
   image_circular: false # crops the image to make it circular
   address: false
 

@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 Our choices today shape the future for generations to come. I'm committed to a career enabling sustainable technologies that benefit us today and tomorrow.
 
-With over a decade in advanced energy materials research and industry collaborations, I've transformed scientific breakthroughs into impactful technologies and steered pivotal industry-academia collaborations.
+With over a decade's experience in advanced energy materials research, research management, and industry collaborations, I've helped transform scientific breakthroughs into impactful technologies and steered pivotal industry-academia projects.
  
 Most recently, I'm working on techno-economic analysis and implementation of emerging renewable energy solutions within a large research centre. 
 

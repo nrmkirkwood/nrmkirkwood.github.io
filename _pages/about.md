@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I guide industry and academia in Australia to work together & take sustainable technologies from the science lab into the real world.
+I help industry and academia in Australia to innovate together & guide sustainable technologies from the science lab into the real world.
 
 I've been working for over a decade in the areas of advanced energy materials research, research management, and industry-academia collaborations.
 

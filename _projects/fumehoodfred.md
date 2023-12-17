@@ -1,6 +1,6 @@
 ---
 layout: page
-title: FRED - a retrofit device to reduce reseach lab energy use
+title: FRED - a retrofit device to reduce research lab energy use
 description: (with some analysis and thoughts on lab energy consumption)
 img: assets/img/fhf-horiz.jpg
 importance: 1

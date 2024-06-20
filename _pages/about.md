@@ -16,11 +16,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am driven to help build a better, more sustainable future. In my work I enable research to make a difference acroos the spectrum of technology development. This includes:
-- Governance for large, blue-sky scientific collaborations to enhance knowledge impact,
-- Managing translational tech development to drive end-user impact of research,
-- Leveraging research policy & innovation programs to train researchers for the broad range of careers now available to researchers.
+My mission is to help brilliant researchers unlock their capacity for innovation and impact.
 
-I've been working for over a decade in the areas of advanced energy materials research, industry-academia collaborations, technology development, and research management.
+I build and deliver innovative research impact programs, foster and aid researcher-led entrepreneurship, and develop mutually beneficial industry-academia partnerships. Prior to working with researchers to empower impact, I worked as a researcher on advanced energy materials and nanomaterials, and have been involved in over 45 scientific publications.
 
 This is a portfolio website with links to my publications, presentations, and some blog-like posts on outcomes of my work that haven't been published elsewhere.
